@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d7c3affc97124340aae313cc87bb7f12",
+    "packages": [
+        {
+            "name": "yuriyshkvarc/sh-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuriyshkvarc/sh-core.git",
+                "reference": "25ae334de3154e46ce5b148c508ffaf9f23b09fd"
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "shCore"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Shkvarc",
+                    "email": "yuriyshkvarc@gmail.com"
+                }
+            ],
+            "description": "core for project",
+            "time": "2019-10-01T10:44:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yuriyshkvarc/sh-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

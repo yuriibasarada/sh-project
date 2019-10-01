@@ -1,0 +1,33 @@
+[
+    {
+        "name": "yuriyshkvarc/sh-core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yuriyshkvarc/sh-core.git",
+            "reference": "25ae334de3154e46ce5b148c508ffaf9f23b09fd"
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2019-10-01T10:44:56+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "shCore"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Yuriy Shkvarc",
+                "email": "yuriyshkvarc@gmail.com"
+            }
+        ],
+        "description": "core for project"
+    }
+]

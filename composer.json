@@ -1,0 +1,11 @@
+{
+  "require": {
+    "yuriyshkvarc/sh-core": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/yuriyshkvarc/sh-core.git"
+    }
+  ]
+}
