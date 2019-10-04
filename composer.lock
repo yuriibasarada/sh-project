@@ -4,15 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7c3affc97124340aae313cc87bb7f12",
+    "content-hash": "45fe8cc218db4db8e3da98874f260b95",
     "packages": [
+        {
+            "name": "yuriyshkvarc/sh-app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuriyshkvarc/sh-app.git",
+                "reference": "a796b6f0bfc89fd083efb1d97978539cf30fd842"
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "shApp"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Shkvarc",
+                    "email": "yuriyshkvarc@gmail.com"
+                }
+            ],
+            "description": "app for project",
+            "time": "2019-10-02T08:46:45+00:00"
+        },
         {
             "name": "yuriyshkvarc/sh-core",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yuriyshkvarc/sh-core.git",
-                "reference": "25ae334de3154e46ce5b148c508ffaf9f23b09fd"
+                "reference": "832bc8626bba0300035758f7d233e88c89525475"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -33,17 +62,20 @@
                 }
             ],
             "description": "core for project",
-            "time": "2019-10-01T10:44:56+00:00"
+            "time": "2019-10-02T09:39:36+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "yuriyshkvarc/sh-core": 20
+        "yuriyshkvarc/sh-core": 20,
+        "yuriyshkvarc/sh-app": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": []
 }

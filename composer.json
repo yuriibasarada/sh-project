@@ -1,11 +1,25 @@
 {
   "require": {
-    "yuriyshkvarc/sh-core": "dev-master"
+    "yuriyshkvarc/sh-core": "dev-master",
+    "yuriyshkvarc/sh-app": "dev-master",
+    "ext-json": "*"
   },
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/yuriyshkvarc/sh-core.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/yuriyshkvarc/sh-app.git"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "./src/"
+    },
+    "files": [
+      "src/config/bootstrap/loader.php"
+    ]
+  }
 }
